@@ -20,6 +20,7 @@ def hello_hbn2():
 def hello_hbn3(text):
     return 'C %s' % text.replace("_", " ")
 
+
 @app.route('/python/')
 @app.route('/python/<text>')
 def hello_hbn4(text='is cool'):
