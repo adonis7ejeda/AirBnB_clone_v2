@@ -18,7 +18,7 @@ def hello_hbn2():
 
 @app.route('/c/<text>')
 def hello_hbn3(text):
-    return 'HBNB %s' % text.replace("_", " ")
+    return 'C %s' % text.replace("_", " ")
 
 
 if __name__ == '__main__':
